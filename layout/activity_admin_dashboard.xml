@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg"
+    android:padding="16dp"
+    android:gravity="center">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Admin Dashboard"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="32dp"/>
+
+    <Button
+        android:id="@+id/addMovieBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/custom_button_secondary"
+        android:text="Add Movie"
+        android:layout_marginBottom="16dp"/>
+
+    <Button
+        android:id="@+id/editMovieBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/custom_button_secondary"
+        android:text="Edit Movie"
+        android:layout_marginBottom="16dp"/>
+
+    <Button
+        android:id="@+id/deleteMovieBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/custom_button_secondary"
+        android:text="Delete Movie"
+        android:layout_marginBottom="16dp"/>
+
+    <Button
+        android:id="@+id/viewBookingsBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/custom_button_secondary"
+        android:text="View Bookings"
+        android:layout_marginBottom="32dp"/>
+
+    <Button
+        android:id="@+id/logoutBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/custom_button_secondary"
+        android:text="Logout"/>
+
+</LinearLayout>
